@@ -1,5 +1,9 @@
 # Tweak gnome-shell lockscreen fadein/out
 
+## Prerequisites
+
+GNOME3 on archlinux.
+
 ## Installation
 
 ```sh
