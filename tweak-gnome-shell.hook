@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = File
+Target = usr/lib/gnome-shell/libgnome-shell.so
+
+[Action]
+Description = Tweaking libgnome-shell.so...
+When = PostTransaction
+Exec = /etc/pacman.d/bin/tweak-gnome-shell
